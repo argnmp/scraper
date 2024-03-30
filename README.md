@@ -22,6 +22,7 @@ Now the program is placed in `./target/debug` directory.
 
 ### How to run
 1. command line template
+   
 ```
 ./copier "[[first]] -> [[second]] -> [[third]]"
 
@@ -31,6 +32,7 @@ cargo run "[[first]] -> [[second]] -> [[third]]"
 ```
 
 2. template file
+
 template.txt
 ```
 [[title]]

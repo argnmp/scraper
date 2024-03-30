@@ -224,16 +224,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
 
 [[package]]
-name = "copier"
-version = "0.1.0"
-dependencies = [
- "arboard",
- "clap",
- "regex",
- "tokio",
-]
-
-[[package]]
 name = "core-foundation"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -624,6 +614,16 @@ name = "scopeguard"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
+
+[[package]]
+name = "scraper"
+version = "0.1.0"
+dependencies = [
+ "arboard",
+ "clap",
+ "regex",
+ "tokio",
+]
 
 [[package]]
 name = "simd-adler32"
